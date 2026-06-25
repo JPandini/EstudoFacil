@@ -1,0 +1,22 @@
+# Build / dependências
+estudo-facil-api/target/
+estudo-facil-web/node_modules/
+estudo-facil-web/dist/
+estudo-facil-web/*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Ambiente
+.env
+estudo-facil-api/.env
+!estudo-facil-api/.env.example
+*.local
